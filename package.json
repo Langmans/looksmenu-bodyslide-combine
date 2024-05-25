@@ -1,0 +1,31 @@
+{
+  "name": "looksmenu-bodyslide-combine",
+  "description": "Combines Looksmenu and Bodyslide presets into new Looksmenu presets",
+  "author": "langmans",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "devtools": "./node_modules/.bin/vue-devtools",
+    "dev": "vite",
+    "build": "vite build && electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@electron/remote": "^2.1.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/devtools": "^7.1.3",
+    "@vueuse/core": "^10.9.0",
+    "client-zip": "^2.4.5",
+    "electron": "^30.0.2",
+    "electron-builder": "^24.13.3",
+    "file-saver": "^2.0.5",
+    "primevue": "^3.52.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-electron": "^0.28.7",
+    "vite-plugin-electron-renderer": "^0.14.5",
+    "vue": "^3.4.27"
+  }
+}
