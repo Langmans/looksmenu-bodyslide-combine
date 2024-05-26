@@ -2,7 +2,7 @@
   "name": "looksmenu-bodyslide-combine",
   "description": "Combines Looksmenu and Bodyslide presets into new Looksmenu presets",
   "author": "langmans",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "license": "MIT",
   "main": "dist-electron/main.js",

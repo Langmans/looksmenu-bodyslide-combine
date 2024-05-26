@@ -226,7 +226,7 @@ onMounted(() => {
       <div class="flex flex-wrap gap-2">
         <InputGroup>
           <InputText :value="bodySlidePresetsDir??''" class="truncate-left"/>
-          <Button @click="selectLooksMenuPresetsDir" :title="bodySlidePresetsDir" v-tooltip="'Select directory'"
+          <Button @click="selectBodySlidePresetsDir" :title="bodySlidePresetsDir" v-tooltip="'Select directory'"
                   class="shrink-0" :icon="PrimeIcons.FOLDER"/>
           <Button severity="secondary" :disabled="!bodySlidePresetsDir" @click="openPath(bodySlidePresetsDir)"
                   :icon="PrimeIcons.FOLDER_OPEN"
