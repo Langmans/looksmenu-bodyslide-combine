@@ -1,8 +1,12 @@
 import {createApp} from 'vue'
-import PrimeVue from 'primevue/config'
-import App from './App.vue'
-import 'primevue/resources/themes/aura-light-green/theme.css'
+import "./style.css";
+import "primeicons/primeicons.css";
+import App from "./App.vue";
+import PrimeVue from "primevue/config";
+import "primevue/resources/themes/aura-dark-green/theme.css";
+import Tooltip from "primevue/tooltip";
 
 const app = createApp(App)
-app.use(PrimeVue,{ripple: true})
-app.mount('#app')
+app.directive("tooltip", Tooltip);
+app.use(PrimeVue, {});
+app.mount("#app");

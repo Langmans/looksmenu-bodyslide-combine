@@ -1,5 +1,5 @@
 import path from 'path'
-import {app, BrowserWindow} from 'electron'
+import {app, BrowserWindow, shell} from 'electron'
 import Remote from "@electron/remote/main";
 
 Remote.initialize();
@@ -15,6 +15,15 @@ async function createWindow() {
             // enableRemoteModule: true,
             contextIsolation: false,
         },
+    })
+
+    win.webContents.session.on('will-download', (event, item, webContents) => {
+
+        item.once('done', (event, state) => {
+            if (state === 'completed') {
+                shell.showItemInFolder(item.getSavePath())
+            }
+        })
     })
 
     Remote.enable(win.webContents);

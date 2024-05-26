@@ -43,3 +43,23 @@ T
 $node_modules/file-saver/package.json,5\b\5b07ea793d48ae9d43fa69e8323120885b7d24db
 X
 (node_modules/file-saver/src/FileSaver.js,a\7\a7b1716c1bac0a680edcaa48a71d34986155d305
+B
+tailwind.config.js,0\9\0918cbb76f2c44f223706cec9d31a32cd1177ce4
+B
+src/wind/global.js,2\9\294561c45553334efb01d39b91ef921fd61cda4c
+A
+postcss.config.js,3\f\3f70684581fd16ab3be77ca959e0138ef3ee8bfb
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+=
+src/style.css,1\9\199c81d8625cb1aaa85a72e49e4ad72a9fed6766
+9
+	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+c
+3release/1.1.0/win-unpacked/resources/app-update.yml,8\1\81f21b1de30d6521ada5a3a93cf48e66d491717e
+H
+release/1.1.0/latest.yml,b\8\b85c2f1f273591fdf628f83bf40bc71be66fee0d
